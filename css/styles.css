@@ -1,0 +1,118 @@
+body {
+    background-image: url("https://i.postimg.cc/wTFpqHsJ/loginbg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-pic {
+    right: 10%;
+    width: 650px;
+    position: absolute;
+    left: 4%;
+    transform: rotate(-6rad);
+}
+
+form {
+    position: absolute;
+    right: 10%;
+    font-family: poppins, sans-serif;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 46px;
+}
+
+.login-box {
+    padding: 10px 40px;
+    min-width: 400px;
+    max-width: 700px;
+    border-radius: 25px;
+    box-shadow: 0 11px 17px 5px rgb(0 0 0 / 33%);
+    border-radius: 50px;
+}
+
+.login-box .title {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.login-box .input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.login-box .input-box .input {
+    border: none;
+    background-color: #f7d9b8;
+    outline: none;
+    width: 100%;
+    padding: 14px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    box-shadow: inset 0 3px 5px 0 rgb(0 0 0 / 0.05);
+}
+
+.login-box .input-box label {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    padding: 14px 5px;
+    display: block;
+    pointer-events: none;
+    transition: 0.2s;
+    font-size: 15px;
+    color: #817e79;
+}
+
+.login-box .input-box input:focus~label,
+.login-box .input-box input:valid~label {
+    top: -20px;
+    left: 2px;
+    font-size: 14px;
+}
+
+.login-box .input-box .view-pass {
+    width: 45px;
+    position: absolute;
+    top: 27px;
+    right: 2px;
+    cursor: pointer;
+    background-color: rgba(236, 236, 236, 0.8);
+    padding: 7px 12px;
+    backdrop-filter: blur(3px);
+    display: none;
+}
+
+.login-box button[type="submit"] {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 15px 0;
+    font-size: 20px;
+    color: #fff;
+    background: #332c22;
+    border-radius: 20px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.skip {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    width: 50px;	  
+    border-radius: 30%;
+    box-shadow:  -3px -3px 6px white,  5px 5px 7px rgba(0, 0, 0, 0.1);
+}

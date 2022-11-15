@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+
+body {
+    background-image: url("https://i.postimg.cc/nzXkDVC5/bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #422a17;
+    font-family: 'Merienda', cursive;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.cards-main a {
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card:hover{
+    background-color: #ebc79e;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.green {
+    background-color: #00c08b;
+    color: #127a5d;
+}
+
+.red {
+    background-color: #ea5080;
+    color: #aa2a52;
+}
+
+.blue {
+    background-color: #53bfe2;
+    color: #2884a2;
+}
+
+.yellow {
+    background-color: #f8c54d;
+    color: #ab8426;
+}
+
+.purple {
+    background-color: #df6dc2;
+    color: #9f3c85;
+}
+.violet {
+    background-color: #a06ddf;
+    color: #623a94;
+}
