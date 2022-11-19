@@ -23,8 +23,8 @@
         {
             question: "Which of the following is not a conic section?",
             choices: ["Apex", "Hyperbola", "Ellipse", "Parabola"],
-            correctAnswer: 0
-        }
+            correctAnswer: 0
+        }
     ];
 
     var questionCounter = 0; //Tracks question number
