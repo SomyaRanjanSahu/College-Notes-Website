@@ -2,7 +2,7 @@
 
 body {
     background-image: url("https://i.postimg.cc/nzXkDVC5/bg.jpg");
-    background-color: #cccccc;
+    background-color: #DCAE94;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -21,6 +21,18 @@ p {
     font-style: italic;
     font-weight: 400;
     margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 754px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
 }
 
 .cards-main a {
@@ -43,7 +55,7 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.card:hover{
+.card:hover {
     background-color: #ebc79e;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
@@ -72,6 +84,7 @@ p {
     background-color: #df6dc2;
     color: #9f3c85;
 }
+
 .violet {
     background-color: #a06ddf;
     color: #623a94;

@@ -1,6 +1,6 @@
 body {
     background-image: url("https://i.postimg.cc/wTFpqHsJ/loginbg.jpg");
-    background-color: #cccccc;
+    background-color: #DCAE94;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -11,31 +11,32 @@ body {
 }
 
 .main-pic {
-    right: 10%;
     width: 650px;
-    position: absolute;
-    left: 4%;
     transform: rotate(-6rad);
+    padding-right: 200px;
+}
+
+.text-pic{
+    display: none;
 }
 
 form {
-    position: absolute;
-    right: 10%;
     font-family: poppins, sans-serif;
 }
 
-h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 46px;
 }
 
 .login-box {
     padding: 10px 40px;
-    min-width: 400px;
-    max-width: 700px;
+    min-width: 25%;
+    max-width: 50%;
     border-radius: 25px;
     box-shadow: 0 11px 17px 5px rgb(0 0 0 / 33%);
     border-radius: 50px;
+    margin: 0;
 }
 
 .login-box .title {
@@ -112,7 +113,37 @@ h1{
     position: absolute;
     bottom: 25px;
     right: 30px;
-    width: 50px;	  
+    width: 50px;
     border-radius: 30%;
-    box-shadow:  -3px -3px 6px white,  5px 5px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: -3px -3px 6px white, 5px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .main-pic {
+        display: none;
+    }
+
+    .text-pic{
+         display: unset;
+         width: 60px;
+         margin: 0;
+         padding: 0;
+         position: relative;
+         top: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    h1{
+        font-size: 30px;
+    }
+
+    .text-pic{
+        width: 35px;
+        top: 4px;
+   }
+
 }

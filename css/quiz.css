@@ -2,10 +2,9 @@
 
 body {
     background-image: url("https://i.postimg.cc/nzXkDVC5/bg.jpg");
-    background-color: #cccccc;
+    background-color: #DCAE94;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 h1 {
@@ -58,7 +57,7 @@ button {
     width: 50%;
     margin: 80px auto;
     padding: 0 25px 40px 10px;
-    background-color: #5d4037 ;
+    background-color: #5d4037;
     border: 10px solid #b0e0e6;
     border-radius: 10px;
     color: #ffffff;
