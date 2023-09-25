@@ -4,7 +4,7 @@
 <br>
 <br>
 
-View Page : https://somyaranjansahu.github.io/Back-To-College/
+View Page : [Link](https://somyaranjansahu.github.io/College-Notes-Website/)
 
 <h2>Tech Stack :</h2>
 <ol>
